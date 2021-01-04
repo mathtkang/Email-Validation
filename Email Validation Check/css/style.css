@@ -67,3 +67,16 @@ h3{
     background-size:cover;
     z-index:1000;
 }
+
+
+/* 새로만듦 */
+/* #form.valid #text{
+    color: #00ff00;
+}
+
+#form.invalid #text{
+    color: #ff0000;
+} */
+
+이렇게 하면 안됨 : ~ 일때 이렇게 변하고 싶은 건데
+css는 위에서부터 읽기때문에 맨 위에 있는 상단의 색(초록색)만 적용된다
